@@ -14,15 +14,6 @@
     "principalId": {
       "value": "${AZURE_PRINCIPAL_ID}"
     },
-    "openAiServiceName": {
-      "value": "${AZURE_OPENAI_SERVICE}"
-    },
-    "openAiResourceGroupName": {
-      "value": "${AZURE_OPENAI_RESOURCE_GROUP}"
-    },
-    "openAiSkuName": {
-      "value": "S0"
-    },
     "formRecognizerServiceName": {
       "value": "${AZURE_FORMRECOGNIZER_SERVICE}"
     },
@@ -49,9 +40,6 @@
     },
     "storageResourceGroupName": {
       "value": "${AZURE_STORAGE_RESOURCE_GROUP}"
-    },
-    "chatGptDeploymentName": {
-      "value": "${AZURE_OPENAI_CHATGPT_DEPLOYMENT=chat}"
     },
     "useApplicationInsights": {
       "value": "${AZURE_USE_APPLICATION_INSIGHTS=false}"
