@@ -15,6 +15,7 @@ if ($LASTEXITCODE -ne 0) {
     exit $LASTEXITCODE
 }
 
+Set-Item -Path "env:OPENAI_API_KEY" -Value $env:AZURE_OPENAI_KEY
 
 Write-Host 'Creating python virtual environment "backend/backend_env"'
 $pythonCmd = Get-Command python -ErrorAction SilentlyContinue
